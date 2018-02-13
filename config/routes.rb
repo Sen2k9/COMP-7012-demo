@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
 get '/pages/home', to:'pages#home', as: 'pages_home'
 
+get 'bob', to: 'pages#bob', as: 'pages_bob'
+
 root to: 'pages#home'
 
 end
